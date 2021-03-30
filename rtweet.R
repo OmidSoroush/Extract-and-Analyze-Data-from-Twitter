@@ -12,11 +12,11 @@ setwd("")
 
 
 # Insert the Credentials you received from Twitter after setting up developer account
-appname <- "tutorial_rtweet"
-key <- "VUzUawDI1JcOkG2VKB8ShOgPv"
-secret <- "JOgmLJGmI5ecpWyadky1qXntPnrQGCmpuYNlBfJRrCzUc5QMXm"
-access_token <- "1527778656-5qoJOil54qiGdUDQfoVwSNRDfpA9vjujD7Q8d3o"
-access_secret <- "AjgnDFdli6mzVKFtt54MNruQ6f6J5D1Nhf7uA2UCWmZPD"
+appname <- ""
+key <- ""
+secret <- ""
+access_token <- ""
+access_secret <- ""
 
 
 # User the Credentials to create authorization token
