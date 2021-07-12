@@ -11,7 +11,7 @@ library(ggplot2)
 setwd("")
 
 
-# Insert the Credentials you received from Twitter after setting up developer account
+# Insert the Credentials you received from Twitter after setting up your developer account
 appname <- ""
 key <- ""
 secret <- ""
@@ -97,7 +97,7 @@ ggplot(data=tbl_rel_freq, aes(x=day, y=rel_freq, group=screen_name)) +
   scale_linetype_manual(values = c("dashed", "solid")) +
   theme_minimal()
 
-# Write the data in excel workbook
+# Write the data to excel workbook
 write.xlsx(timeline, file = "timeline.xlsx",
            sheetName = "Sheet1", asTable = T)
 
